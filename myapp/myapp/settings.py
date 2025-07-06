@@ -63,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'https://chatapp-production-2f7c.up.railway.app',
 ]
 
 ROOT_URLCONF = 'myapp.urls'
