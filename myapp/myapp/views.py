@@ -3,6 +3,9 @@ from django.shortcuts import render, redirect
 from django.shortcuts import render, redirect
 import mysql.connector
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def getDbConnection():
     return mysql.connector.connect(
