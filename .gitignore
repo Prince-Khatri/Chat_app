@@ -1,0 +1,23 @@
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+env/
+venv/
+
+# Environment variables
+.env
+
+# OS junk
+.DS_Store
+
+# IDE config
+.vscode/
+.idea/
+
+# Trash or temp folders
+/trash/
