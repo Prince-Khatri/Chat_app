@@ -14,9 +14,7 @@ def getDbConnection():
         user = os.getenv("DB_USER"),
         password = os.getenv("DB_PASSWORD"),
         database = os.getenv("DB_NAME"),
-        ssl_ca = "/etc/ssl/cert.pem",
-        ssl_verify_cert = True,
-        ssl_verify_identity = True
+        ssl_disabled=True
     )
 
 def home(request):
